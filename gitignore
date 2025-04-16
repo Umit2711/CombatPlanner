@@ -1,0 +1,18 @@
+# .gitignore für Visual Studio / .NET Projekte
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.bak
+*.log
+*.vscode/
+*.env
+*.secrets.json
+bin/
+obj/
+TestResults/
+*.ncrunch*
+*.DS_Store
+*.idea/
+*.swp
+*.sln.docstates
