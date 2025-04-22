@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0ACA86-58F4-482F-A3AA-76081AF394DD}|CombatPlanner.Shared\\CombatPlanner.Shared.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.shared\\combatplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F0ACA86-58F4-482F-A3AA-76081AF394DD}|CombatPlanner.Shared\\CombatPlanner.Shared.csproj|solutionrelative:combatplanner.shared\\combatplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67949556-6F30-4CA3-9746-6D4AD27B289E}|CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.infrastructure\\combatplanner.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67949556-6F30-4CA3-9746-6D4AD27B289E}|CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj|solutionrelative:combatplanner.infrastructure\\combatplanner.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CombatPlanner.Shared",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
+              "RelativeDocumentMoniker": "CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
+              "RelativeToolTip": "CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T06:14:36.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CombatPlanner.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
+              "RelativeToolTip": "CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T06:13:07.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Program.cs",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Program.cs",
+              "RelativeToolTip": "CombatPlanner.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:10:54.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\App.razor",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\App.razor",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\App.razor",
+              "RelativeToolTip": "CombatPlanner.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T06:10:52.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\_Imports.razor",
+              "RelativeToolTip": "CombatPlanner.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T06:10:49.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

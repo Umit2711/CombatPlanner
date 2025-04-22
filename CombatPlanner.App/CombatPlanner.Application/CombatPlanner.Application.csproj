@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CombatPlanner.Domain\CombatPlanner.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Common\Validators\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Features\" />
+  </ItemGroup>
+
+</Project>

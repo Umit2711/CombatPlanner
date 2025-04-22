@@ -1,0 +1,6 @@
+@CombatPlanner.API_HostAddress = http://localhost:5033
+
+GET {{CombatPlanner.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
