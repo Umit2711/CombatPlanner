@@ -1,18 +1,34 @@
-# .gitignore für Visual Studio / .NET Projekte
+# Visual Studio
 .vs/
 *.user
 *.suo
-*.dbmdl
-*.bak
-*.log
-*.vscode/
-*.env
-*.secrets.json
+*.sln.docstates
+
+# Build artefacts
 bin/
 obj/
 TestResults/
 *.ncrunch*
-*.DS_Store
-*.idea/
+
+# EF Core Migrations Snapshot
+Migrations/*.Designer.cs
+Migrations/*Snapshot.cs
+
+# Secrets & Environment
+*.secrets.json
+*.env
+
+# Logs & DB
+*.log
+*.dbmdl
+*.bak
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# macOS / Linux
+.DS_Store
 *.swp
-*.sln.docstates

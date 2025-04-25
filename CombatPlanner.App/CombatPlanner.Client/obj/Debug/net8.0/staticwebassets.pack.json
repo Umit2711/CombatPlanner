@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CombatPlanner.Client.styles.css",
+      "PackagePath": "staticwebassets\\CombatPlanner.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CombatPlanner.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CombatPlanner.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CombatPlanner.Client.props",
+      "PackagePath": "build\\CombatPlanner.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CombatPlanner.Client.props",
+      "PackagePath": "buildMultiTargeting\\CombatPlanner.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CombatPlanner.Client.props",
+      "PackagePath": "buildTransitive\\CombatPlanner.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

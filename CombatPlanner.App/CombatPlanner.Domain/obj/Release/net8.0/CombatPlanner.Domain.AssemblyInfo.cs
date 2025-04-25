@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CombatPlanner.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5565cb04f6687f8d1ea5e9d99017c4d3deedda4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6298cba0848879719c4d9fbf62700221e2e08e8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CombatPlanner.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CombatPlanner.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

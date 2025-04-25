@@ -1,0 +1,15 @@
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\bin\Debug\net8.0\CombatPlanner.Shared.deps.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\bin\Debug\net8.0\CombatPlanner.Shared.runtimeconfig.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\bin\Debug\net8.0\CombatPlanner.Shared.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\bin\Debug\net8.0\CombatPlanner.Shared.pdb
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.csproj.AssemblyReference.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.AssemblyInfoInputs.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.AssemblyInfo.cs
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.sourcelink.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\refint\CombatPlanner.Shared.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.pdb
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\CombatPlanner.Shared.genruntimeconfig.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Shared\obj\Debug\net8.0\ref\CombatPlanner.Shared.dll

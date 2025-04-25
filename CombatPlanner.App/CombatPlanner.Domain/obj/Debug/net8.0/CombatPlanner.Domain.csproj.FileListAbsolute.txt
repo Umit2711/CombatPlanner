@@ -1,0 +1,15 @@
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\bin\Debug\net8.0\CombatPlanner.Domain.deps.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\bin\Debug\net8.0\CombatPlanner.Domain.runtimeconfig.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\bin\Debug\net8.0\CombatPlanner.Domain.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\bin\Debug\net8.0\CombatPlanner.Domain.pdb
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.csproj.AssemblyReference.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.AssemblyInfoInputs.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.AssemblyInfo.cs
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.sourcelink.json
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\refint\CombatPlanner.Domain.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.pdb
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\CombatPlanner.Domain.genruntimeconfig.cache
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Domain\obj\Debug\net8.0\ref\CombatPlanner.Domain.dll
