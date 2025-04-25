@@ -35,7 +35,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CombatPlanner.Shared",
+              "Title": "CombatPlanner.Shared.csproj",
               "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
               "RelativeDocumentMoniker": "CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
               "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Shared\\CombatPlanner.Shared.csproj",
@@ -48,15 +48,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CombatPlanner.Infrastructure",
+              "Title": "CombatPlanner.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
               "RelativeToolTip": "CombatPlanner.Infrastructure\\CombatPlanner.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T06:13:07.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:13:07.388Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "CombatPlanner.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:10:54.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:10:54.897Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "CombatPlanner.Client\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T06:10:52.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:10:52.525Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "CombatPlanner.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T06:10:49.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:10:49.104Z"
             }
           ]
         }
