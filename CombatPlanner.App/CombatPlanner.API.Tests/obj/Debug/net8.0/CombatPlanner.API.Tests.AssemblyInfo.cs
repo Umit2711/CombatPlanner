@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CombatPlanner.API.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c95764029b9da0de4dfb5d1dc872613fa9541ba9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e34604686dedbeed430ec6342ca6ff60f8224dd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CombatPlanner.API.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CombatPlanner.API.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

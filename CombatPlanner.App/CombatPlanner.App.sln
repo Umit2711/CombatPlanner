@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Domain", "CombatPlanner.Domain\CombatPlanner.Domain.csproj", "{C0EDEEF1-2A57-4F16-8499-68C392E79DE3}"
 EndProject
@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Shared", "Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.API", "CombatPlanner.API\CombatPlanner.API.csproj", "{984A17CA-6041-4A37-A812-5294DF02DADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Client", "CombatPlanner.Client\CombatPlanner.Client.csproj", "{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.API.Tests", "CombatPlanner.API.Tests\CombatPlanner.API.Tests.csproj", "{6CB9BD06-E7E3-4D5F-A93C-17D63C4AAA06}"
@@ -22,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Infrastructure.Tests", "CombatPlanner.Infrastructure.Tests\CombatPlanner.Infrastructure.Tests.csproj", "{6A04C411-C460-4841-8F86-DFC5D31DBD29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Application.Tests", "CombatPlanner.Application.Tests\CombatPlanner.Application.Tests.csproj", "{A958F105-D636-45D0-8CC9-0F942E783F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatPlanner.Client", "CombatPlanner.Client\CombatPlanner.Client.csproj", "{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,6 @@ Global
 		{984A17CA-6041-4A37-A812-5294DF02DADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984A17CA-6041-4A37-A812-5294DF02DADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{984A17CA-6041-4A37-A812-5294DF02DADC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF30D255-CDDD-43AF-8CB0-AB952C09ABAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CB9BD06-E7E3-4D5F-A93C-17D63C4AAA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CB9BD06-E7E3-4D5F-A93C-17D63C4AAA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB9BD06-E7E3-4D5F-A93C-17D63C4AAA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,6 +61,10 @@ Global
 		{A958F105-D636-45D0-8CC9-0F942E783F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A958F105-D636-45D0-8CC9-0F942E783F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A958F105-D636-45D0-8CC9-0F942E783F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

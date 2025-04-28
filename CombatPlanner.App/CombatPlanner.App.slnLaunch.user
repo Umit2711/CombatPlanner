@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "api/client",
+    "Projects": [
+      {
+        "Path": "CombatPlanner.API\\CombatPlanner.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CombatPlanner.Client\\CombatPlanner.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

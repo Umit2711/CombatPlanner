@@ -4,8 +4,10 @@ C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\Comb
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Infrastructure.pdb
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Application.dll
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Domain.dll
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Shared.dll
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Application.pdb
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Domain.pdb
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\bin\Debug\net8.0\CombatPlanner.Shared.pdb
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\obj\Debug\net8.0\CombatPlanner.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\obj\Debug\net8.0\CombatPlanner.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Infrastructure\obj\Debug\net8.0\CombatPlanner.Infrastructure.AssemblyInfoInputs.cache
