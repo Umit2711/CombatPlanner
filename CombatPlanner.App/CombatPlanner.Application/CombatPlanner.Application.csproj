@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CombatPlanner.Domain\CombatPlanner.Domain.csproj" />
+    <ProjectReference Include="..\CombatPlanner.Shared\CombatPlanner.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,9 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.15" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
