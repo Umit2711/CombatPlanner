@@ -1,16 +1,25 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+<div class="layout-container">
+    <header class="layout-header">
+        <!-- Hier kommt später dein Navigationsbereich rein -->
+        <nav class="nav-bar">
+            <span class="logo">Combat Planner</span>
 
-        <article class="content px-4">
-            @Body
-        </article>
+            <ul class="nav-links">
+                <li><a href="/">Training Plan</a></li>
+                <li><a href="/daily-notes">Daily Notes</a></li>
+                <li><a href="/weight-tracking">Weight Tracking</a></li>
+                <li><a href="/progress-goals">Progress Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="layout-main">
+        @Body
     </main>
+
+    <footer class="layout-footer">
+        © 2025 Combat Training Planner. All rights reserved.
+    </footer>
 </div>

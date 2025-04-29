@@ -1,0 +1,15 @@
+﻿.session-item {
+    background-color: #f3f4f6;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.session-title {
+    font-weight: 600;
+}
+
+.session-time {
+    font-size: 0.8rem;
+    color: #6b7280;
+}

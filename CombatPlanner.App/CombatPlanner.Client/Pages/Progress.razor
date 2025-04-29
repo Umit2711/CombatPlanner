@@ -1,0 +1,73 @@
+﻿@page "/progress-goals"
+@using CombatPlanner.Client.Components
+@using CombatPlanner.Client.Components.Progress
+
+<div class="page-wrapper">
+	<div class="page-header">
+		<h2 class="page-title">Progress Goals</h2>
+		<p class="page-subtitle">Track and manage your combat training objectives</p>
+	</div>
+
+	<div class="goal-categories">
+		@foreach (var category in GoalCategories)
+		{
+			<GoalCategoryCard Category="@category" />
+		}
+	</div>
+
+	<div class="add-goal">
+		<PrimaryButton Label="Add New Goal" Icon="+" OnClick="@AddNewGoal" />
+	</div>
+</div>
+
+@code {
+	private List<GoalCategory> GoalCategories = new()
+	{
+		new GoalCategory("Technique Goals", new List<GoalItemModel>
+		{
+			new GoalItemModel("Improve Front Kick", 70, "In Progress"),
+			new GoalItemModel("Master Guard Position", 90, "Near Target")
+		}),
+		new GoalCategory("Fitness Goals", new List<GoalItemModel>
+		{
+			new GoalItemModel("Increase Stamina", 60, "In Progress"),
+			new GoalItemModel("Core Strength", 85, "Near Target")
+		}),
+		new GoalCategory("Performance Goals", new List<GoalItemModel>
+		{
+			new GoalItemModel("Sparring Wins", 65, "In Progress"),
+			new GoalItemModel("Competition Ready", 40, "Starting")
+		})
+	};
+
+	private void AddNewGoal()
+	{
+		Console.WriteLine("Add New Goal clicked");
+	}
+
+	public class GoalCategory
+	{
+		public string Name { get; set; }
+		public List<GoalItemModel> Goals { get; set; }
+
+		public GoalCategory(string name, List<GoalItemModel> goals)
+		{
+			Name = name;
+			Goals = goals;
+		}
+	}
+
+	public class GoalItemModel
+	{
+		public string Name { get; set; }
+		public int Progress { get; set; }
+		public string Status { get; set; }
+
+		public GoalItemModel(string name, int progress, string status)
+		{
+			Name = name;
+			Progress = progress;
+			Status = status;
+		}
+	}
+}

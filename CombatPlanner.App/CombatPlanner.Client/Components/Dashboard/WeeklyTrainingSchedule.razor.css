@@ -1,0 +1,11 @@
+﻿.weekly-schedule {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .weekly-schedule {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

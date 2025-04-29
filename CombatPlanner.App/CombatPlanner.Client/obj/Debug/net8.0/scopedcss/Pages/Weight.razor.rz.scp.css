@@ -1,0 +1,27 @@
+/* Hauptseitenlayout */
+.page-wrapper[b-4qj3l14c2g] {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header[b-4qj3l14c2g] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-title[b-4qj3l14c2g] {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+/* Zusammenfassungskarten (Current Weight, Goal Weight, Average Loss) */
+.summary-cards[b-4qj3l14c2g] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}

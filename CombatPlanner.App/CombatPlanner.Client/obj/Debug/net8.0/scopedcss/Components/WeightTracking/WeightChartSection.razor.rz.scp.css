@@ -1,0 +1,57 @@
+/* Chart-Bereich */
+.chart-section[b-a2lv3t82yv] {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header[b-a2lv3t82yv] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.chart-title[b-a2lv3t82yv] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.chart-tabs[b-a2lv3t82yv] {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chart-tab[b-a2lv3t82yv] {
+    background-color: transparent;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .chart-tab:hover[b-a2lv3t82yv] {
+        background-color: #f3f4f6;
+    }
+
+    .chart-tab.active[b-a2lv3t82yv] {
+        background-color: #111827;
+        color: #ffffff;
+    }
+
+/* Platzhalter für Chart */
+.chart-placeholder[b-a2lv3t82yv] {
+    background-color: #f3f4f6;
+    height: 250px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+}

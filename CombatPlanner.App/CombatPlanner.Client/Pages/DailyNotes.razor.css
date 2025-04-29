@@ -1,0 +1,23 @@
+﻿.page-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.load-more {
+    margin-top: 2rem;
+    text-align: center;
+}

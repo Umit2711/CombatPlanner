@@ -1,0 +1,21 @@
+﻿@using static CombatPlanner.Client.Pages.Weight
+@code {
+    [Parameter] public WeighIn WeighIn { get; set; }
+}
+
+<div class="history-item">
+    <div>
+        <div class="history-weight">@WeighIn.Weight kg</div>
+        <div class="history-date">@WeighIn.Date.ToString("MMMM dd, yyyy")</div>
+    </div>
+    <div class="history-change">
+        @if (WeighIn.Change < 0)
+        {
+            <span class="history-down">↓ @Math.Abs(WeighIn.Change) kg</span>
+        }
+        else
+        {
+            <span class="history-up">+ @WeighIn.Change kg</span>
+        }
+    </div>
+</div>

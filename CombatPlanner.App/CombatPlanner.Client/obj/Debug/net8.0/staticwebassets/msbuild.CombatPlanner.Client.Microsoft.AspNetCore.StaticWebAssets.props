@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>kh1gffbm2w</Fingerprint>
-      <Integrity>eFlzKcJMXHSesiQA2mFz+U6OpUE+CnDAM6CbA94eRQc=</Integrity>
+      <Fingerprint>9njev68jiz</Fingerprint>
+      <Integrity>Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CombatPlanner.Client.styles.css'))</OriginalItemSpec>

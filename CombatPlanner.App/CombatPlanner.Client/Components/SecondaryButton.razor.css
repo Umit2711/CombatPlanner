@@ -1,0 +1,23 @@
+﻿.secondary-button {
+    background-color: #f3f4f6; /* Hellgrauer Hintergrund */
+    color: #374151; /* Dunklerer Text */
+    border: 1px solid #d1d5db; /* Leichte graue Umrandung */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .secondary-button:hover {
+        background-color: #e5e7eb; /* Etwas dunkler beim Hover */
+        transform: translateY(-2px);
+    }
+
+.button-icon {
+    font-size: 1.2rem;
+}

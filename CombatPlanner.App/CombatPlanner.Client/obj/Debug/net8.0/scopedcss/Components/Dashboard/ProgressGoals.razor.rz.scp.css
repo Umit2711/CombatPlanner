@@ -1,0 +1,40 @@
+.progress-goals[b-0b817feaeh] {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+}
+
+.goal-list[b-0b817feaeh] {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Linke Spalte flexibel, rechte Spalte feste ProgressBars */
+    gap: 1.5rem 2rem; /* Abstand zwischen Texten und Balken */
+    align-items: center; /* Vertikal zentriert */
+}
+
+.goal-item[b-0b817feaeh] {
+    display: contents; /* Text und Balken direkt im Grid platzieren */
+}
+
+.goal-text[b-0b817feaeh] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.progress-bar[b-0b817feaeh] {
+    width: 150px; /* feste Breite für alle Progress Bars */
+    background-color: #e5e7eb;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress[b-0b817feaeh] {
+    background-color: #1f2937;
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s ease; /* sanftes Einlaufen der ProgressBar */
+}

@@ -1,0 +1,17 @@
+﻿@using static CombatPlanner.Client.Pages.Progress
+
+@code {
+    [Parameter] public GoalItemModel Goal { get; set; }
+}
+
+<div class="goal-item-card">
+    <div class="goal-header">
+        <span class="goal-name">@Goal.Name</span>
+        <span class="goal-status">@Goal.Status</span>
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress" style="width:@($"{Goal.Progress}%")"></div>
+    </div>
+</div>
+

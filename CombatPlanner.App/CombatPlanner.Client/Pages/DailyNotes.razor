@@ -1,0 +1,44 @@
+﻿@page "/daily-notes"
+@using CombatPlanner.Client.Components
+@using CombatPlanner.Client.Components.DailyNotes
+
+<div class="page-wrapper">
+    <div class="page-header">
+        <h2 class="page-title">Daily Training Notes</h2>
+        <PrimaryButton Label="Add Daily Note" Icon="+" OnClick="@AddNote" />
+    </div>
+
+    <DailyNoteList Notes="@Notes" />
+
+    <div class="load-more">
+        <GhostButton Label="Load More" Icon="▾" OnClick="@LoadMoreNotes" />
+    </div>
+</div>
+
+@code {
+    private List<DailyNote> Notes = new()
+    {
+        new DailyNote(new DateTime(2025, 4, 28), "Monday", "Striking Session", "Improved front kick technique..."),
+        new DailyNote(new DateTime(2025, 4, 27), "Sunday", "Rest Day", "Recovery day. Light stretching..."),
+        new DailyNote(new DateTime(2025, 4, 26), "Saturday", "Grappling Session", "Worked on guard passes...")
+    };
+
+    private void AddNote() => Console.WriteLine("Add clicked");
+    private void LoadMoreNotes() => Console.WriteLine("Load more clicked");
+
+    public class DailyNote
+    {
+        public DateTime Date { get; set; }
+        public string DayOfWeek { get; set; }
+        public string SessionType { get; set; }
+        public string Content { get; set; }
+
+        public DailyNote(DateTime date, string dayOfWeek, string sessionType, string content)
+        {
+            Date = date;
+            DayOfWeek = dayOfWeek;
+            SessionType = sessionType;
+            Content = content;
+        }
+    }
+}

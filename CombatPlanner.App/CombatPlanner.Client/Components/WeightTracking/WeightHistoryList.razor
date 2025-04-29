@@ -1,0 +1,14 @@
+﻿@using static CombatPlanner.Client.Pages.Weight
+@code {
+    [Parameter] public List<WeighIn> WeighIns { get; set; }
+}
+
+<div class="history-section">
+    <div class="history-title">Recent Weigh-ins</div>
+    <div class="history-list">
+        @foreach (var weighIn in WeighIns)
+        {
+            <WeightHistoryItem WeighIn="@weighIn" />
+        }
+    </div>
+</div>

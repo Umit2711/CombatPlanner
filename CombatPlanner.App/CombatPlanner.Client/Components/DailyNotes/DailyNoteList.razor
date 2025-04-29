@@ -1,0 +1,13 @@
+﻿@using static CombatPlanner.Client.Pages.DailyNotes
+
+
+<div class="notes-list">
+    @foreach (var note in Notes)
+    {
+        <DailyNoteCard Note="@note" />
+    }
+</div>
+
+@code {
+	[Parameter] public List<DailyNote> Notes { get; set; } = new List<DailyNote>();
+}

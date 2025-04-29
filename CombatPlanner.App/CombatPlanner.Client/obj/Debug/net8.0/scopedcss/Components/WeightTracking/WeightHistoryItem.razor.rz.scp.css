@@ -1,0 +1,34 @@
+/* Einzelne History-Items */
+.history-item[b-kyeermpvsd] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.history-weight[b-kyeermpvsd] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.history-date[b-kyeermpvsd] {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.history-change[b-kyeermpvsd] {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.history-down[b-kyeermpvsd] {
+    color: #10b981; /* grün für Gewichtsverlust */
+}
+
+.history-up[b-kyeermpvsd] {
+    color: #ef4444; /* rot für Gewichtszunahme */
+}

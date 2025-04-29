@@ -1,0 +1,35 @@
+﻿<div class="progress-goals">
+    <h3>Progress Goals</h3>
+    <div class="goal-list">
+        @foreach (var goal in Goals)
+        {
+            <div class="goal-item">
+                <div class="goal-text">@goal.Name</div>
+                <div class="progress-bar">
+                    <div class="progress" style="@($"width: {goal.Progress}%")"></div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<ProgressGoal> Goals = new List<ProgressGoal>
+    {
+        new ProgressGoal("Master Front Kick", 70),
+        new ProgressGoal("Ground Defense", 50),
+        new ProgressGoal("Cardio Endurance", 30)
+    };
+
+    private class ProgressGoal
+    {
+        public string Name { get; set; }
+        public int Progress { get; set; }
+
+        public ProgressGoal(string name, int progress)
+        {
+            Name = name;
+            Progress = progress;
+        }
+    }
+}

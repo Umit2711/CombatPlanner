@@ -1,0 +1,48 @@
+﻿@page "/weight-tracking"
+@using CombatPlanner.Client.Components
+@using CombatPlanner.Client.Components.WeightTracking
+
+<div class="page-wrapper">
+    <div class="page-header">
+        <h2 class="page-title">Weight Tracking</h2>
+        <PrimaryButton Label="Add Weight" Icon="+" OnClick="@AddWeight" />
+    </div>
+
+    <div class="summary-cards">
+        <WeightSummaryCard Title="Current Weight" Value="85.3 kg" Subtext="↓ 0.7 kg this week" />
+        <WeightSummaryCard Title="Goal Weight" Value="80.0 kg" Subtext="5.3 kg remaining" />
+        <WeightSummaryCard Title="Average Loss" Value="0.8 kg" Subtext="per week" />
+    </div>
+
+    <WeightChartSection />
+
+    <WeightHistoryList WeighIns="@WeighIns" />
+</div>
+
+@code {
+    private List<WeighIn> WeighIns = new()
+    {
+        new WeighIn(85.3, new DateTime(2025, 4, 28), -0.2),
+        new WeighIn(85.5, new DateTime(2025, 4, 27), -0.3),
+        new WeighIn(85.8, new DateTime(2025, 4, 26), -0.2)
+    };
+
+    private void AddWeight()
+    {
+        Console.WriteLine("Add Weight clicked");
+    }
+
+    public class WeighIn
+    {
+        public double Weight { get; set; }
+        public DateTime Date { get; set; }
+        public double Change { get; set; }
+
+        public WeighIn(double weight, DateTime date, double change)
+        {
+            Weight = weight;
+            Date = date;
+            Change = change;
+        }
+    }
+}

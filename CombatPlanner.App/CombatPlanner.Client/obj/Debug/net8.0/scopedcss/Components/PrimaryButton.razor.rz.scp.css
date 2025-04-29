@@ -1,0 +1,23 @@
+.primary-button[b-zycktp0nj0] {
+    background-color: #111827; /* Dunkles Blau/Schwarz */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .primary-button:hover[b-zycktp0nj0] {
+        background-color: #374151;
+        transform: translateY(-2px);
+    }
+
+.button-icon[b-zycktp0nj0] {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+﻿<div class="session-item">
+	<div class="session-title">@Title</div>
+	<div class="session-time">@StartTime - @EndTime</div>
+</div>
+
+@code {
+	[Parameter]
+	public string Title { get; set; } = string.Empty;
+
+	[Parameter]
+	public string StartTime { get; set; } = string.Empty;
+
+	[Parameter]
+	public string EndTime { get; set; } = string.Empty;
+}

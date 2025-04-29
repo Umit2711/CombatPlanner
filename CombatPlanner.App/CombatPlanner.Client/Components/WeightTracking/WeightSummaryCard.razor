@@ -1,0 +1,11 @@
+﻿@code {
+    [Parameter] public string Title { get; set; } = string.Empty;
+	[Parameter] public string Value { get; set; } = string.Empty;
+	[Parameter] public string Subtext { get; set; } = string.Empty;
+}
+
+<div class="summary-card">
+    <div class="summary-title">@Title</div>
+    <div class="summary-value">@Value</div>
+    <div class="summary-subtext">@Subtext</div>
+</div>

@@ -1,0 +1,39 @@
+.weight-tracking[b-57uarol1yw] {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+}
+
+.chart-placeholder[b-57uarol1yw] {
+    background-color: #f3f4f6;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.weight-info[b-57uarol1yw] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.weight-info[b-57uarol1yw] {
+    font-size: 1.2rem;
+    color: #111827;
+}
+
+.label[b-57uarol1yw] {
+    font-size: 0.8rem;
+    color: #6B7280;
+}
+
+.value[b-57uarol1yw] {
+    font-size: 1.5rem;
+    font-weight:500;
+}

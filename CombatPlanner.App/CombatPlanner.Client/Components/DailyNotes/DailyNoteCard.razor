@@ -1,0 +1,17 @@
+﻿@using static CombatPlanner.Client.Pages.DailyNotes
+
+<div class="note-card">
+    <div class="note-header">
+        <div>
+            <div class="note-date">@Note.Date.ToString("MMMM dd, yyyy")</div>
+            <div class="note-meta">@Note.DayOfWeek – @Note.SessionType</div>
+        </div>
+        <button class="note-options">⋯</button>
+    </div>
+    <div class="note-content">@Note.Content</div>
+</div>
+
+@code {
+    [Parameter] public DailyNote Note { get; set; }
+}
+

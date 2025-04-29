@@ -1,0 +1,33 @@
+@using static CombatPlanner.Client.Components.Dashboard.WeeklyTrainingSchedule
+
+
+<div class="day-card">
+	<div class="day-name">@DayName</div>
+
+	<div class="session-list">
+		@if (Sessions?.Any() == true)
+		{
+			@foreach (var s in Sessions)
+			{
+				<SessionItem Title="@s.Title" StartTime="@s.StartTime" EndTime="@s.EndTime" />
+			}
+		}
+	</div>
+
+	<div class="add-session-area">
+		<GhostButton Label="Add Session" Icon="+" OnClick="AddSession" />
+	</div>
+</div>
+
+@code {
+	[Parameter]
+	public string DayName { get; set; } = string.Empty;
+
+	[Parameter]
+	public List<SessionModel> Sessions { get; set; } = new();
+
+	private void AddSession()
+	{
+		Console.WriteLine("AddSession method called");
+	}
+}

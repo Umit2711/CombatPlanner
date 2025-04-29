@@ -1,0 +1,18 @@
+﻿@using static CombatPlanner.Client.Pages.Progress
+
+@code {
+    [Parameter] public GoalCategory Category { get; set; }
+}
+
+<div class="goal-category-card">
+    <div class="goal-category-header">
+        <span class="goal-category-title">@Category.Name</span>
+    </div>
+
+    <div class="goal-items">
+        @foreach (var goal in Category.Goals)
+        {
+            <GoalItem Goal="@goal" />
+        }
+    </div>
+</div>

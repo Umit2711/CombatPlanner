@@ -1,0 +1,23 @@
+.ghost-button[b-o4nmvom43d] {
+    background-color: transparent;
+    color: #6b7280; /* etwas helleres Grau für noch feineren Text */
+    border: 1px dashed #d1d5db; /* dünnere, gestrichelte Border */
+    padding: 0.4rem 0.8rem; /* etwas kompakteres Padding */
+    border-radius: 0.5rem;
+    font-size: 0.95rem; /* etwas kleinere Schriftgröße */
+    font-weight: 500; /* nicht mehr fett, sondern mittel */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+    .ghost-button:hover[b-o4nmvom43d] {
+        background-color: #f9fafb;
+        border-color: #9ca3af; /* etwas dunkler bei Hover */
+    }
+
+.button-icon[b-o4nmvom43d] {
+    font-size: 1.1rem; /* Icon leicht kleiner, damit es besser passt */
+}

@@ -1,77 +1,124 @@
-.page[b-sxgszbjb6d] {
-    position: relative;
+.layout-container[b-sxgszbjb6d] {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
 }
 
-main[b-sxgszbjb6d] {
-    flex: 1;
+.layout-header[b-sxgszbjb6d] {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.5rem 2rem;
 }
 
-.sidebar[b-sxgszbjb6d] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-}
-
-.top-row[b-sxgszbjb6d] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
+.nav-bar[b-sxgszbjb6d] {
     display: flex;
     align-items: center;
 }
 
-    .top-row[b-sxgszbjb6d]  a, .top-row[b-sxgszbjb6d]  .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
-
-    .top-row[b-sxgszbjb6d]  a:hover, .top-row[b-sxgszbjb6d]  .btn-link:hover {
-        text-decoration: underline;
-    }
-
-    .top-row[b-sxgszbjb6d]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row[b-sxgszbjb6d] {
-        justify-content: space-between;
-    }
-
-    .top-row[b-sxgszbjb6d]  a, .top-row[b-sxgszbjb6d]  .btn-link {
-        margin-left: 0;
-    }
+.logo[b-sxgszbjb6d] {
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
-@media (min-width: 641px) {
-    .page[b-sxgszbjb6d] {
-        flex-direction: row;
+.nav-links[b-sxgszbjb6d] {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0px 0px 0px 25px;
+    padding: 0;
+}
+
+    .nav-links li a[b-sxgszbjb6d] {
+        text-decoration: none;
+        color: #374151;
+        font-weight: 400;
+        font-size: 0.95rem;
     }
 
-    .sidebar[b-sxgszbjb6d] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
+        .nav-links li a:hover[b-sxgszbjb6d] {
+            color: black;
+        }
+
+.layout-main[b-sxgszbjb6d] {
+    flex-grow: 1;
+    padding: 2rem 2rem;
+}
+
+.weekly-schedule[b-sxgszbjb6d] {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.day-card[b-sxgszbjb6d] {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.activity[b-sxgszbjb6d] {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.weight-tracking[b-sxgszbjb6d], .progress-goals[b-sxgszbjb6d] {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+
+.chart-placeholder[b-sxgszbjb6d] {
+    background-color: #f3f4f6;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.weight-info[b-sxgszbjb6d] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+    .weight-info strong[b-sxgszbjb6d] {
+        font-size: 1.2rem;
+        color: #111827;
     }
 
-    .top-row[b-sxgszbjb6d] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
+.progress-goals .goal-item[b-sxgszbjb6d] {
+    margin-bottom: 1rem;
+}
 
-    .top-row.auth[b-sxgszbjb6d]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+.progress-bar[b-sxgszbjb6d] {
+    background-color: #e5e7eb;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+    overflow: hidden;
+}
 
-    .top-row[b-sxgszbjb6d], article[b-sxgszbjb6d] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
+.progress[b-sxgszbjb6d] {
+    background-color: #1f2937;
+    height: 100%;
+}
+
+.layout-footer[b-sxgszbjb6d] {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #9ca3af;
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 2rem;
 }

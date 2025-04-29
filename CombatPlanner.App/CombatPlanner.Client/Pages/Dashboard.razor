@@ -1,0 +1,29 @@
+﻿@page "/"
+@using CombatPlanner.Client.Components
+@using CombatPlanner.Client.Components.Dashboard
+
+<div class="dashboard">
+
+	<div class="main-grid">
+		<div class="top-section">
+			<div class="top-header">
+				<span class="top-section-header">Weekly Training Schedule</span>
+				<PrimaryButton Label="Add Session" Icon="+" OnClick="@AddSession" />
+			</div>
+
+			<WeeklyTrainingSchedule />
+		</div>
+
+		<div class="bottom-section">
+			<WeightTracking />
+			<ProgressGoals />
+		</div>
+	</div>
+</div>
+
+@code {
+	private void AddSession()
+	{
+		Console.WriteLine("button was clicked");
+	}
+}

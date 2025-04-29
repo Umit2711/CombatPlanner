@@ -1,0 +1,28 @@
+.day-card[b-h9u4uy8m3r] {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    min-height: 340px;
+    max-width: 170px;
+    justify-content: space-between;
+}
+
+.day-name[b-h9u4uy8m3r] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.session-list[b-h9u4uy8m3r] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.see-trough[b-h9u4uy8m3r] {
+    background-color: aqua;
+}

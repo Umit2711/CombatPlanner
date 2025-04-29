@@ -1,0 +1,61 @@
+﻿<div class="weekly-schedule">
+    @foreach (var day in Days)
+    {
+        <DayCard DayName="@day.Name" Sessions="day.Sessions"/>
+    }
+</div>
+
+@code {
+    private List<DayModel> Days = new()
+    {
+        new DayModel("Mon", new List<SessionModel>
+        {
+            new SessionModel("Striking", "9:00 AM", "10:30 AM"),
+            new SessionModel("Conditioning", "5:00 PM", "6:30 PM")
+        }),
+        new DayModel("Tue", new List<SessionModel>
+        {
+            new SessionModel("Grappling", "10:00 AM", "11:30 AM")
+        }),
+        new DayModel("Wed", new List<SessionModel>
+        {
+            new SessionModel("MMA", "12:00 PM", "1:30 PM")
+        }),
+        new DayModel("Thu", new List<SessionModel>
+        {
+            new SessionModel("Striking", "2:00 PM", "3:30 PM")
+        }),
+        new DayModel("Fri", new List<SessionModel>
+        {
+            new SessionModel("Grappling", "4:00 PM", "5:30 PM")
+        }),
+        new DayModel("Sat", new List<SessionModel>()),
+        new DayModel("Sun", new List<SessionModel>())
+    };
+
+    private class DayModel
+    {
+        public string Name { get; set; }
+        public List<SessionModel> Sessions { get; set; }
+
+        public DayModel(string name, List<SessionModel> sessions)
+        {
+            Name = name;
+            Sessions = sessions;
+        }
+    }
+
+    public class SessionModel
+    {
+        public string Title { get; set; }
+        public string StartTime { get; set; }
+        public string EndTime { get; set; }
+
+        public SessionModel(string title, string startTime, string endTime)
+        {
+            Title = title;
+            StartTime = startTime;
+            EndTime = endTime;
+        }
+    }
+}

@@ -1,80 +1,603 @@
-/* /Layout/MainLayout.razor.rz.scp.css */
-.page[b-sxgszbjb6d] {
-    position: relative;
+/* /Components/DailyNotes/DailyNoteCard.razor.rz.scp.css */
+.note-card[b-t7a1tsyftu] {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
 }
 
-main[b-sxgszbjb6d] {
+.note-header[b-t7a1tsyftu] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-date[b-t7a1tsyftu] {
+    font-weight: 600;
+    color: #111827;
+}
+
+.note-meta[b-t7a1tsyftu] {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.note-content[b-t7a1tsyftu] {
+    font-size: 0.95rem;
+    color: #374151;
+    line-height: 1.4;
+}
+
+.note-options[b-t7a1tsyftu] {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: #9ca3af;
+    cursor: pointer;
+}
+/* /Components/DailyNotes/DailyNoteList.razor.rz.scp.css */
+.notes-list[b-r11dgzk993] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/* /Components/Dashboard/DayCard.razor.rz.scp.css */
+.day-card[b-h9u4uy8m3r] {
     flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    min-height: 340px;
+    max-width: 170px;
+    justify-content: space-between;
 }
 
-.sidebar[b-sxgszbjb6d] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+.day-name[b-h9u4uy8m3r] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
-.top-row[b-sxgszbjb6d] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
+.session-list[b-h9u4uy8m3r] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.see-trough[b-h9u4uy8m3r] {
+    background-color: aqua;
+}
+/* /Components/Dashboard/ProgressGoals.razor.rz.scp.css */
+.progress-goals[b-0b817feaeh] {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+}
+
+.goal-list[b-0b817feaeh] {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Linke Spalte flexibel, rechte Spalte feste ProgressBars */
+    gap: 1.5rem 2rem; /* Abstand zwischen Texten und Balken */
+    align-items: center; /* Vertikal zentriert */
+}
+
+.goal-item[b-0b817feaeh] {
+    display: contents; /* Text und Balken direkt im Grid platzieren */
+}
+
+.goal-text[b-0b817feaeh] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.progress-bar[b-0b817feaeh] {
+    width: 150px; /* feste Breite für alle Progress Bars */
+    background-color: #e5e7eb;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress[b-0b817feaeh] {
+    background-color: #1f2937;
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s ease; /* sanftes Einlaufen der ProgressBar */
+}
+/* /Components/Dashboard/SessionItem.razor.rz.scp.css */
+.session-item[b-vszzokacls] {
+    background-color: #f3f4f6;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.session-title[b-vszzokacls] {
+    font-weight: 600;
+}
+
+.session-time[b-vszzokacls] {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+/* /Components/Dashboard/WeeklyTrainingSchedule.razor.rz.scp.css */
+.weekly-schedule[b-0heuobg25m] {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .weekly-schedule[b-0heuobg25m] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* /Components/Dashboard/WeightTracking.razor.rz.scp.css */
+.weight-tracking[b-57uarol1yw] {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+}
+
+.chart-placeholder[b-57uarol1yw] {
+    background-color: #f3f4f6;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.weight-info[b-57uarol1yw] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.weight-info[b-57uarol1yw] {
+    font-size: 1.2rem;
+    color: #111827;
+}
+
+.label[b-57uarol1yw] {
+    font-size: 0.8rem;
+    color: #6B7280;
+}
+
+.value[b-57uarol1yw] {
+    font-size: 1.5rem;
+    font-weight:500;
+}
+/* /Components/GhostButton.razor.rz.scp.css */
+.ghost-button[b-o4nmvom43d] {
+    background-color: transparent;
+    color: #6b7280; /* etwas helleres Grau für noch feineren Text */
+    border: 1px dashed #d1d5db; /* dünnere, gestrichelte Border */
+    padding: 0.4rem 0.8rem; /* etwas kompakteres Padding */
+    border-radius: 0.5rem;
+    font-size: 0.95rem; /* etwas kleinere Schriftgröße */
+    font-weight: 500; /* nicht mehr fett, sondern mittel */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+    .ghost-button:hover[b-o4nmvom43d] {
+        background-color: #f9fafb;
+        border-color: #9ca3af; /* etwas dunkler bei Hover */
+    }
+
+.button-icon[b-o4nmvom43d] {
+    font-size: 1.1rem; /* Icon leicht kleiner, damit es besser passt */
+}
+/* /Components/PrimaryButton.razor.rz.scp.css */
+.primary-button[b-zycktp0nj0] {
+    background-color: #111827; /* Dunkles Blau/Schwarz */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .primary-button:hover[b-zycktp0nj0] {
+        background-color: #374151;
+        transform: translateY(-2px);
+    }
+
+.button-icon[b-zycktp0nj0] {
+    font-size: 1.2rem;
+}
+/* /Components/Progress/GoalCategoryCard.razor.rz.scp.css */
+.goal-category-card[b-9mntyixgty] {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.goal-category-header[b-9mntyixgty] {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.goal-category-icon[b-9mntyixgty] {
+    font-size: 1.5rem;
+}
+
+.goal-items[b-9mntyixgty] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* /Components/Progress/GoalItem.razor.rz.scp.css */
+/* Einzelne Goal Items */
+.goal-item-card[b-s2mg6au4td] {
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+    .goal-item-card:hover[b-s2mg6au4td] {
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        transform: translateY(-2px);
+    }
+
+.goal-header[b-s2mg6au4td] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.goal-name[b-s2mg6au4td] {
+    flex-grow: 1;
+}
+
+.goal-status[b-s2mg6au4td] {
+    background-color: #e5e7eb;
+    color: #6b7280;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.progress-bar[b-s2mg6au4td] {
+    background-color: #e5e7eb;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress[b-s2mg6au4td] {
+    background-color: #1f2937;
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 3px;
+}
+/* /Components/SecondaryButton.razor.rz.scp.css */
+.secondary-button[b-c7httyamkm] {
+    background-color: #f3f4f6; /* Hellgrauer Hintergrund */
+    color: #374151; /* Dunklerer Text */
+    border: 1px solid #d1d5db; /* Leichte graue Umrandung */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .secondary-button:hover[b-c7httyamkm] {
+        background-color: #e5e7eb; /* Etwas dunkler beim Hover */
+        transform: translateY(-2px);
+    }
+
+.button-icon[b-c7httyamkm] {
+    font-size: 1.2rem;
+}
+/* /Components/WeightTracking/WeightChartSection.razor.rz.scp.css */
+/* Chart-Bereich */
+.chart-section[b-a2lv3t82yv] {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header[b-a2lv3t82yv] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.chart-title[b-a2lv3t82yv] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.chart-tabs[b-a2lv3t82yv] {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chart-tab[b-a2lv3t82yv] {
+    background-color: transparent;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .chart-tab:hover[b-a2lv3t82yv] {
+        background-color: #f3f4f6;
+    }
+
+    .chart-tab.active[b-a2lv3t82yv] {
+        background-color: #111827;
+        color: #ffffff;
+    }
+
+/* Platzhalter für Chart */
+.chart-placeholder[b-a2lv3t82yv] {
+    background-color: #f3f4f6;
+    height: 250px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+}
+/* /Components/WeightTracking/WeightHistoryItem.razor.rz.scp.css */
+/* Einzelne History-Items */
+.history-item[b-kyeermpvsd] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.history-weight[b-kyeermpvsd] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.history-date[b-kyeermpvsd] {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.history-change[b-kyeermpvsd] {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.history-down[b-kyeermpvsd] {
+    color: #10b981; /* grün für Gewichtsverlust */
+}
+
+.history-up[b-kyeermpvsd] {
+    color: #ef4444; /* rot für Gewichtszunahme */
+}
+/* /Components/WeightTracking/WeightHistoryList.razor.rz.scp.css */
+/* History-Liste */
+.history-section[b-nyfohn6vi3] {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.history-title[b-nyfohn6vi3] {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.history-list[b-nyfohn6vi3] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* /Components/WeightTracking/WeightSummaryCard.razor.rz.scp.css */
+.summary-card[b-n9n4d8vo88] {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.summary-title[b-n9n4d8vo88] {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.summary-value[b-n9n4d8vo88] {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.summary-subtext[b-n9n4d8vo88] {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+/* /Layout/MainLayout.razor.rz.scp.css */
+.layout-container[b-sxgszbjb6d] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+}
+
+.layout-header[b-sxgszbjb6d] {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.5rem 2rem;
+}
+
+.nav-bar[b-sxgszbjb6d] {
     display: flex;
     align-items: center;
 }
 
-    .top-row[b-sxgszbjb6d]  a, .top-row[b-sxgszbjb6d]  .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
-
-    .top-row[b-sxgszbjb6d]  a:hover, .top-row[b-sxgszbjb6d]  .btn-link:hover {
-        text-decoration: underline;
-    }
-
-    .top-row[b-sxgszbjb6d]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row[b-sxgszbjb6d] {
-        justify-content: space-between;
-    }
-
-    .top-row[b-sxgszbjb6d]  a, .top-row[b-sxgszbjb6d]  .btn-link {
-        margin-left: 0;
-    }
+.logo[b-sxgszbjb6d] {
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
-@media (min-width: 641px) {
-    .page[b-sxgszbjb6d] {
-        flex-direction: row;
+.nav-links[b-sxgszbjb6d] {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0px 0px 0px 25px;
+    padding: 0;
+}
+
+    .nav-links li a[b-sxgszbjb6d] {
+        text-decoration: none;
+        color: #374151;
+        font-weight: 400;
+        font-size: 0.95rem;
     }
 
-    .sidebar[b-sxgszbjb6d] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
+        .nav-links li a:hover[b-sxgszbjb6d] {
+            color: black;
+        }
+
+.layout-main[b-sxgszbjb6d] {
+    flex-grow: 1;
+    padding: 2rem 2rem;
+}
+
+.weekly-schedule[b-sxgszbjb6d] {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.day-card[b-sxgszbjb6d] {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.activity[b-sxgszbjb6d] {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.weight-tracking[b-sxgszbjb6d], .progress-goals[b-sxgszbjb6d] {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+
+.chart-placeholder[b-sxgszbjb6d] {
+    background-color: #f3f4f6;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.weight-info[b-sxgszbjb6d] {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+    .weight-info strong[b-sxgszbjb6d] {
+        font-size: 1.2rem;
+        color: #111827;
     }
 
-    .top-row[b-sxgszbjb6d] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
+.progress-goals .goal-item[b-sxgszbjb6d] {
+    margin-bottom: 1rem;
+}
 
-    .top-row.auth[b-sxgszbjb6d]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+.progress-bar[b-sxgszbjb6d] {
+    background-color: #e5e7eb;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: 0.25rem;
+    overflow: hidden;
+}
 
-    .top-row[b-sxgszbjb6d], article[b-sxgszbjb6d] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
+.progress[b-sxgszbjb6d] {
+    background-color: #1f2937;
+    height: 100%;
+}
+
+.layout-footer[b-sxgszbjb6d] {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #9ca3af;
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 2rem;
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-e2gspy7ggi] {
@@ -159,4 +682,146 @@ main[b-sxgszbjb6d] {
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+/* /Pages/DailyNotes.razor.rz.scp.css */
+.page-wrapper[b-q67fa8yui8] {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header[b-q67fa8yui8] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-title[b-q67fa8yui8] {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.load-more[b-q67fa8yui8] {
+    margin-top: 2rem;
+    text-align: center;
+}
+/* /Pages/Dashboard.razor.rz.scp.css */
+.dashboard[b-cv66ewtlpv] {
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.main-grid[b-cv66ewtlpv] {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.top-section[b-cv66ewtlpv] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.top-header[b-cv66ewtlpv] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section-header[b-cv66ewtlpv] {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111827;
+}
+
+.bottom-section[b-cv66ewtlpv] {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .bottom-section[b-cv66ewtlpv] {
+        grid-template-columns: 1fr;
+    }
+}
+/* /Pages/Login.razor.rz.scp.css */
+namespace CombatPlanner.Client.Pages[b-pemvxqfazj]
+{
+    public class Login
+    {
+    }
+}
+/* /Pages/Progress.razor.rz.scp.css */
+.page-wrapper[b-25sn4gu3tl] {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header[b-25sn4gu3tl] {
+    margin-bottom: 2rem;
+}
+
+.page-title[b-25sn4gu3tl] {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.page-subtitle[b-25sn4gu3tl] {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+}
+
+.goal-categories[b-25sn4gu3tl] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Add Button */
+.add-goal[b-25sn4gu3tl] {
+    text-align: center;
+}
+/* /Pages/Register.razor.rz.scp.css */
+namespace CombatPlanner.Client.Pages[b-sj33sba2yb]
+{
+    public class Register
+    {
+    }
+}
+/* /Pages/Weight.razor.rz.scp.css */
+/* Hauptseitenlayout */
+.page-wrapper[b-4qj3l14c2g] {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header[b-4qj3l14c2g] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-title[b-4qj3l14c2g] {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+/* Zusammenfassungskarten (Current Weight, Goal Weight, Average Loss) */
+.summary-cards[b-4qj3l14c2g] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
 }

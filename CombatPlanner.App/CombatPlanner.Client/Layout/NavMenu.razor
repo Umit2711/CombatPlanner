@@ -1,39 +1,67 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">CombatPlanner.Client</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿@using Microsoft.AspNetCore.Components.Routing
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
+<div class="header-container">
+    <div class="title">Combat Training Planner</div>
+
+    <nav class="nav-links">
+        <NavLink Match="NavLinkMatch.All" href="/" class="nav-link" activeClass="active-link">
+            Training Plan
+        </NavLink>
+
+        <NavLink Match="NavLinkMatch.Prefix" href="/daily-notes" class="nav-link" activeClass="active-link">
+            Daily Notes
+        </NavLink>
+
+        <NavLink Match="NavLinkMatch.Prefix" href="/weight-tracking" class="nav-link" activeClass="active-link">
+            Weight Tracking
+        </NavLink>
+
+        <NavLink Match="NavLinkMatch.Prefix" href="/progress-goals" class="nav-link" activeClass="active-link">
+            Progress Goals
+        </NavLink>
     </nav>
 </div>
 
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
+<style>
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e5e7eb;
     }
-}
+
+    .title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #111827;
+        margin-right: 2rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: #6b7280;
+        font-size: 0.95rem;
+        font-weight: 500;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0.5rem;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .nav-link:hover {
+            background-color: #f3f4f6;
+            color: #374151;
+        }
+
+    .active-link {
+        background-color: #e5e7eb;
+        color: #111827;
+        font-weight: 600;
+    }
+</style>
