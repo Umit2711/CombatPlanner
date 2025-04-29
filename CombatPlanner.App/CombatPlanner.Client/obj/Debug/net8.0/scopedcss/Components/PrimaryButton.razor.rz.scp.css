@@ -1,23 +1,23 @@
 .primary-button[b-zycktp0nj0] {
-    background-color: #111827; /* Dunkles Blau/Schwarz */
+    background-color: var(--color-accent);
     color: #ffffff;
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    font-size: var(--font-base);
+    font-weight: var(--font-weight-bold);
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--spacing-sm);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
     .primary-button:hover[b-zycktp0nj0] {
-        background-color: #374151;
+        background-color: var(--color-accent-light);
         transform: translateY(-2px);
     }
 
 .button-icon[b-zycktp0nj0] {
-    font-size: 1.2rem;
+    font-size: var(--font-lg);
 }

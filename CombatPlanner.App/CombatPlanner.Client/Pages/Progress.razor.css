@@ -1,33 +1,33 @@
 ﻿.page-wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: var(--spacing-lg);
 }
 
 .page-header {
-    margin-bottom: 2rem;
+    margin-bottom: var(--spacing-lg);
 }
 
 .page-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #111827;
+    font-size: var(--font-xl);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
 }
 
 .page-subtitle {
-    font-size: 1rem;
-    color: #6b7280;
-    margin-top: 0.5rem;
+    font-size: var(--font-base);
+    color: var(--color-subtle-text);
+    margin-top: var(--spacing-sm);
 }
 
 .goal-categories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
 }
 
-/* Add Button */
+/* Add Button Bereich */
 .add-goal {
     text-align: center;
 }

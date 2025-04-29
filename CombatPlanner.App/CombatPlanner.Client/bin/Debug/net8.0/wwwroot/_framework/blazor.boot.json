@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CombatPlanner.Client",
   "resources": {
-    "hash": "sha256-ysKPk6W62X4/boksUKGXDT0Dho9iKAaA+nr1GYyDYlc=",
+    "hash": "sha256-sIL9YADk0QnTOqtMxd16RHfQ2HfmcTvBBXmMEXUnLW4=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-DTUQS6Jc6BNnS7sYYezFfaUKVmQq0/lanhQuJfygH/k="
     },
@@ -210,11 +210,11 @@
       "netstandard.wasm": "sha256-sEvS/ZjfGhf1dLglmk72ysM50loOygjujJ/J5OhFLEw=",
       "System.Private.CoreLib.wasm": "sha256-BhHYDTpkph+YJOQuAlv6aSrvjTVX0WLTIDBXecinFXo=",
       "CombatPlanner.Shared.wasm": "sha256-taKf6DhRDCXF/rAeZC2kXFyCUAJwZ52jHEeZkS5h0L8=",
-      "CombatPlanner.Client.wasm": "sha256-hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco="
+      "CombatPlanner.Client.wasm": "sha256-JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94="
     },
     "pdb": {
       "CombatPlanner.Shared.pdb": "sha256-agT0HuYBO0H+STuq1CHqOhCZBx2dTLpPNxeX51eTLFM=",
-      "CombatPlanner.Client.pdb": "sha256-Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0="
+      "CombatPlanner.Client.pdb": "sha256-NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ="
     }
   },
   "cacheBootResources": true,

@@ -1066,6 +1066,8 @@ C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\Comb
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\scopedcss\Pages\Login.razor.rz.scp.css
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\scopedcss\Pages\Progress.razor.rz.scp.css
 C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\scopedcss\Pages\Register.razor.rz.scp.css
-C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\o1omqpo0tr-t2q6sni1ze.gz
-C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\bsb25gkhlt-24nrh9ju9w.gz
-C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\uhwrapeqr9-esq0plxa58.gz
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\scopedcss\Components\Settings\SettingsItem.razor.rz.scp.css
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\scopedcss\Pages\Settings.razor.rz.scp.css
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\o1omqpo0tr-iy04vg0xj6.gz
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\bsb25gkhlt-efymp7t8c6.gz
+C:\Users\Uemit Tamyol\source\repos\Umit2711\CombatPlanner\CombatPlanner.App\CombatPlanner.Client\obj\Debug\net8.0\compressed\uhwrapeqr9-opac3cuhx4.gz

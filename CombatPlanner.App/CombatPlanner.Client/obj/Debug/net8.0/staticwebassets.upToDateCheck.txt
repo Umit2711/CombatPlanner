@@ -1,6 +1,7 @@
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\theme.css
 wwwroot\favicon.png
 wwwroot\icon-192.png
 wwwroot\index.html

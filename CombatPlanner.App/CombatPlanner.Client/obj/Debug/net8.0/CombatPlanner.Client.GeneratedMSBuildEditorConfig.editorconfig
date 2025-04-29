@@ -80,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope = b-s2mg6au4td
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWNvbmRhcnlCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c7httyamkm
 
+[C:/Users/Uemit Tamyol/source/repos/Umit2711/CombatPlanner/CombatPlanner.App/CombatPlanner.Client/Components/Settings/SettingsItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXR0aW5nc1xTZXR0aW5nc0l0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-34zdr7dwkh
+
 [C:/Users/Uemit Tamyol/source/repos/Umit2711/CombatPlanner/CombatPlanner.App/CombatPlanner.Client/Components/WeightTracking/WeightChartSection.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXZWlnaHRUcmFja2luZ1xXZWlnaHRDaGFydFNlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-a2lv3t82yv
@@ -123,6 +127,10 @@ build_metadata.AdditionalFiles.CssScope = b-25sn4gu3tl
 [C:/Users/Uemit Tamyol/source/repos/Umit2711/CombatPlanner/CombatPlanner.App/CombatPlanner.Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-sj33sba2yb
+
+[C:/Users/Uemit Tamyol/source/repos/Umit2711/CombatPlanner/CombatPlanner.App/CombatPlanner.Client/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hbm3525t0e
 
 [C:/Users/Uemit Tamyol/source/repos/Umit2711/CombatPlanner/CombatPlanner.App/CombatPlanner.Client/Pages/Weight.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VpZ2h0LnJhem9y

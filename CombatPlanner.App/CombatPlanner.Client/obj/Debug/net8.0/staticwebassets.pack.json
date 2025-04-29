@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
       "Id": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

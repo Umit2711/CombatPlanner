@@ -1,7 +1,7 @@
 ﻿.weekly-schedule {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 1rem;
+    gap: var(--spacing-md);
 }
 
 @media (max-width: 768px) {

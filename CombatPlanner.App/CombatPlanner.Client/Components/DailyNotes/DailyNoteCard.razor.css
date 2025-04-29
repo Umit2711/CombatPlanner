@@ -1,11 +1,11 @@
 ﻿.note-card {
-    background-color: #ffffff;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    padding: 1rem 1.5rem;
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: var(--spacing-sm);
 }
 
 .note-header {
@@ -15,18 +15,19 @@
 }
 
 .note-date {
-    font-weight: 600;
-    color: #111827;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+    font-size: var(--font-md);
 }
 
 .note-meta {
-    font-size: 0.9rem;
-    color: #6b7280;
+    font-size: var(--font-sm);
+    color: var(--color-subtle-text);
 }
 
 .note-content {
-    font-size: 0.95rem;
-    color: #374151;
+    font-size: var(--font-md);
+    color: var(--color-accent-light);
     line-height: 1.4;
 }
 
@@ -34,6 +35,6 @@
     background: none;
     border: none;
     font-size: 1.25rem;
-    color: #9ca3af;
+    color: var(--color-muted-text);
     cursor: pointer;
 }

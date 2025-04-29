@@ -1,49 +1,51 @@
 ﻿@page "/register"
+@using CombatPlanner.Client.Components
 @using CombatPlanner.Client.Interfaces
 @using CombatPlanner.Shared.Auth
 @inject IAuthService AuthService
 @inject NavigationManager Navigation
 @inject IJSRuntime JS
 
-<h3>Register</h3>
+<div class="auth-wrapper">
+	<div class="auth-card">
+		<h2 class="auth-title">Create your account</h2>
+		<p class="auth-subtitle">Start tracking your combat training today</p>
 
-<EditForm Model="registerRequest" OnValidSubmit="HandleRegister">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+		<div class="auth-form">
+			<label>Username</label>
+			<input type="text" class="auth-input" @bind="@registerRequest.Username" />
 
-    <div class="form-group">
-        <label>Username</label>
-        <InputText class="form-control" @bind-Value="registerRequest.Username" />
-    </div>
+			<label>Email</label>
+			<input type="email" class="auth-input" @bind="@registerRequest.Email" />
 
-    <div class="form-group">
-        <label>Email</label>
-        <InputText class="form-control" @bind-Value="registerRequest.Email" />
-    </div>
+			<label>Password</label>
+			<input type="password" class="auth-input" @bind="@registerRequest.Password" />
 
-    <div class="form-group">
-        <label>Password</label>
-        <InputText class="form-control" @bind-Value="registerRequest.Password" type="password" />
-    </div>
+			<PrimaryButton Label="Create Account" OnClick="HandleRegister" />
+		</div>
 
-    <button class="btn btn-success" type="submit">Register</button>
-</EditForm>
+		<p class="auth-footer">
+			Already have an account?
+			<a href="/login">Sign in here</a>
+		</p>
+	</div>
+</div>
 
 @code {
-    private RegisterRequest registerRequest = new();
+	private RegisterRequest registerRequest = new();
 
-    private async Task HandleRegister()
-    {
-        var result = await AuthService.Register(registerRequest);
-        if (result != null)
-        {
-            await JS.InvokeVoidAsync("localStorage.setItem", "authToken", result.Token);
-            Navigation.NavigateTo("/");
-        }
-        else
-        {
-            // Fehler anzeigen
-            Console.WriteLine("Registration failed.");
-        }
-    }
+	private async Task HandleRegister()
+	{
+		var result = await AuthService.Register(registerRequest);
+		if (result != null)
+		{
+			await JS.InvokeVoidAsync("localStorage.setItem", "authToken", result.Token);
+			Navigation.NavigateTo("/");
+		}
+		else
+		{
+			// Fehler anzeigen
+			Console.WriteLine("Registration failed.");
+		}
+	}
 }

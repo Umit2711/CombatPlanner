@@ -1,15 +1,16 @@
 .session-item[b-vszzokacls] {
-    background-color: #f3f4f6;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: 0.9rem;
+    background-color: var(--color-border-light);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    font-size: var(--font-sm);
 }
 
 .session-title[b-vszzokacls] {
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
 }
 
 .session-time[b-vszzokacls] {
-    font-size: 0.8rem;
-    color: #6b7280;
+    font-size: var(--font-xs);
+    color: var(--color-subtle-text);
 }

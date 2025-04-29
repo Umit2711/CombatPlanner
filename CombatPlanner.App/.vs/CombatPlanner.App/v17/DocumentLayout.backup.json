@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\components\\progress\\goalcategorycard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\components\\progress\\goalcategorycard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\pages\\progress.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\pages\\progress.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\pages\\dashboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\pages\\dashboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|c:\\users\\uemit tamyol\\source\\repos\\umit2711\\combatplanner\\combatplanner.app\\combatplanner.client\\pages\\dailynotes.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A0B48BD-9126-49F4-AAE2-6BBA9554B25F}|CombatPlanner.Client\\CombatPlanner.Client.csproj|solutionrelative:combatplanner.client\\pages\\dailynotes.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GoalCategoryCard.razor",
-              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Components\\Progress\\GoalCategoryCard.razor",
-              "RelativeDocumentMoniker": "CombatPlanner.Client\\Components\\Progress\\GoalCategoryCard.razor",
-              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Components\\Progress\\GoalCategoryCard.razor",
-              "RelativeToolTip": "CombatPlanner.Client\\Components\\Progress\\GoalCategoryCard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "CombatPlanner.Client\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T08:04:22.445Z",
+              "WhenOpened": "2025-04-29T10:36:20.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Progress.razor",
-              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\Progress.razor",
-              "RelativeDocumentMoniker": "CombatPlanner.Client\\Pages\\Progress.razor",
-              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\Progress.razor",
-              "RelativeToolTip": "CombatPlanner.Client\\Pages\\Progress.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T08:02:33.48Z",
+              "Title": "Dashboard.razor.css",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\Dashboard.razor.css",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\Pages\\Dashboard.razor.css",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\Dashboard.razor.css",
+              "RelativeToolTip": "CombatPlanner.Client\\Pages\\Dashboard.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-29T10:31:41.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyNotes.razor.css",
+              "DocumentMoniker": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\DailyNotes.razor.css",
+              "RelativeDocumentMoniker": "CombatPlanner.Client\\Pages\\DailyNotes.razor.css",
+              "ToolTip": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\Pages\\DailyNotes.razor.css",
+              "RelativeToolTip": "CombatPlanner.Client\\Pages\\DailyNotes.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-29T10:31:40.277Z",
               "EditorCaption": ""
             }
           ]

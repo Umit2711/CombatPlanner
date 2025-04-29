@@ -1,83 +1,66 @@
-.navbar-toggler[b-e2gspy7ggi] {
-    background-color: rgba(255, 255, 255, 0.1);
+.header-container[b-e2gspy7ggi] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
 }
 
-.top-row[b-e2gspy7ggi] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+.header-left[b-e2gspy7ggi] {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
-.navbar-brand[b-e2gspy7ggi] {
-    font-size: 1.1rem;
+.title[b-e2gspy7ggi] {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    white-space: nowrap;
 }
 
-.bi[b-e2gspy7ggi] {
-    display: inline-block;
-    position: relative;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-right: 0.75rem;
-    top: -1px;
-    background-size: cover;
+.nav-links[b-e2gspy7ggi] {
+    display: flex;
+    gap: 1.5rem;
 }
 
-.bi-house-door-fill-nav-menu[b-e2gspy7ggi] {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+.nav-link[b-e2gspy7ggi] {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
 }
 
-.bi-plus-square-fill-nav-menu[b-e2gspy7ggi] {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-square-fill' viewBox='0 0 16 16'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z'/%3E%3C/svg%3E");
-}
-
-.bi-list-nested-nav-menu[b-e2gspy7ggi] {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
-}
-
-.nav-item[b-e2gspy7ggi] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
-}
-
-    .nav-item:first-of-type[b-e2gspy7ggi] {
-        padding-top: 1rem;
+    .nav-link:hover[b-e2gspy7ggi] {
+        background-color: #f3f4f6;
+        color: #374151;
     }
 
-    .nav-item:last-of-type[b-e2gspy7ggi] {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item[b-e2gspy7ggi]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-.nav-item[b-e2gspy7ggi]  a.active {
-    background-color: rgba(255,255,255,0.37);
-    color: white;
+.active-link[b-e2gspy7ggi] {
+    background-color: #e5e7eb;
+    color: #111827;
+    font-weight: 600;
 }
 
-.nav-item[b-e2gspy7ggi]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+.header-right[b-e2gspy7ggi] {
+    display: flex;
+    align-items: center;
 }
 
-@media (min-width: 641px) {
-    .navbar-toggler[b-e2gspy7ggi] {
-        display: none;
-    }
-
-    .collapse[b-e2gspy7ggi] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
-    
-    .nav-scrollable[b-e2gspy7ggi] {
-        /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
-        overflow-y: auto;
-    }
+.profile-icon[b-e2gspy7ggi] {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #374151;
+    transition: background-color 0.2s;
 }
+
+    .profile-icon:hover[b-e2gspy7ggi] {
+        background-color: #e5e7eb;
+    }

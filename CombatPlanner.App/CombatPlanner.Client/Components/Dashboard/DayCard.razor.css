@@ -1,28 +1,29 @@
 ﻿.day-card {
     flex: 1;
-    background-color: #ffffff;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    background-color: var(--color-surface);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 340px;
     max-width: 170px;
-    justify-content: space-between;
 }
 
 .day-name {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-size: var(--font-lg);
+    font-weight: var(--font-weight-regular);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text);
 }
 
 .session-list {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--spacing-sm);
 }
 
 .see-trough {
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.2); /* leichter transparenter Effekt statt 'aqua' */
 }

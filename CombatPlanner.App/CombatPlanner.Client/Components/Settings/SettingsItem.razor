@@ -1,0 +1,11 @@
+﻿@code {
+    [Parameter] public string Label { get; set; } = "";
+    [Parameter] public bool IsDanger { get; set; } = false;
+}
+
+<div class="settings-item @((IsDanger ? "danger" : ""))">
+    <div class="settings-left">
+        <span class="settings-label">@Label</span>
+    </div>
+    <div class="settings-right">›</div>
+</div>

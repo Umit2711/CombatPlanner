@@ -1,25 +1,25 @@
 .summary-card[b-n9n4d8vo88] {
-    background-color: #ffffff;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--spacing-sm);
 }
 
 .summary-title[b-n9n4d8vo88] {
-    font-size: 0.9rem;
-    color: #6b7280;
+    font-size: var(--font-sm);
+    color: var(--color-subtle-text);
 }
 
 .summary-value[b-n9n4d8vo88] {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #111827;
+    font-size: var(--font-xl);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
 }
 
 .summary-subtext[b-n9n4d8vo88] {
-    font-size: 0.85rem;
-    color: #6b7280;
+    font-size: var(--font-xs);
+    color: var(--color-subtle-text);
 }

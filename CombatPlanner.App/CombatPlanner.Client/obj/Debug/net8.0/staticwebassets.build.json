@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FbLSJzBJAyx8PNJ195vBSQZc0juV7t80KStOHO+eG2E=",
+  "Hash": "ptMqYMBf5eWmRomtpPQYEGHpGP02hr9PawPfGZFsRqM=",
   "Source": "CombatPlanner.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "esq0plxa58",
-      "Integrity": "nkRlSYupGIMJQt0Gdgkr5OENuGc701YnTO7ck1Evi28=",
+      "Fingerprint": "opac3cuhx4",
+      "Integrity": "PHRc8Lwr4dJNBEx5yUB8Skji/hK4sEMpyPmWc6E3ndE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "24nrh9ju9w",
-      "Integrity": "Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0=",
+      "Fingerprint": "efymp7t8c6",
+      "Integrity": "NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\CombatPlanner.Client.pdb"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "t2q6sni1ze",
-      "Integrity": "hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco=",
+      "Fingerprint": "iy04vg0xj6",
+      "Integrity": "JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\webcil\\CombatPlanner.Client.wasm"
@@ -5918,7 +5918,7 @@
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm"
     },
     {
-      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-24nrh9ju9w.gz",
+      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-efymp7t8c6.gz",
       "SourceId": "CombatPlanner.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -5932,8 +5932,8 @@
       "RelatedAsset": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\CombatPlanner.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "u4k66i0cbl",
-      "Integrity": "bvmX6wJsuEEGb+5c0dbsbQ9UzdYn4cx+1RDq2901JEA=",
+      "Fingerprint": "vndqqzjgp3",
+      "Integrity": "q70oFe3X+5gSw+05A8SgCACDpyCAkec2mxMJVTGGlSs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\CombatPlanner.Client.pdb"
@@ -7241,7 +7241,7 @@
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm"
     },
     {
-      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-t2q6sni1ze.gz",
+      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-iy04vg0xj6.gz",
       "SourceId": "CombatPlanner.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -7255,8 +7255,8 @@
       "RelatedAsset": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\CombatPlanner.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3za3n1e8vl",
-      "Integrity": "T1UiHPO5jVhTzWkxrwk1WrQSWYU+ZdeO5CpSWYp4bWY=",
+      "Fingerprint": "h0btbvmmke",
+      "Integrity": "AYQ5/VPooDgGTpTCkT+gQ8M3DPtPWqzxTVbKTC9Rgjc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\CombatPlanner.Client.wasm"
@@ -8123,7 +8123,7 @@
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\emcc-props.json"
     },
     {
-      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-esq0plxa58.gz",
+      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-opac3cuhx4.gz",
       "SourceId": "CombatPlanner.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\",
@@ -8137,8 +8137,8 @@
       "RelatedAsset": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ti4dy6kdf8",
-      "Integrity": "JRK2wdgM95NIwx1P0f99mYiQtQayNlJwmNKdvn+zm7M=",
+      "Fingerprint": "h9x45aj7c1",
+      "Integrity": "mwGwBZW3DN7RZJoBktUBOKP/mw0yVSbF72JqXyUcCPg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8746,8 +8746,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9njev68jiz",
-      "Integrity": "Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=",
+      "Fingerprint": "4kpuymxx2l",
+      "Integrity": "HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CombatPlanner.Client.styles.css"
@@ -8767,8 +8767,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9njev68jiz",
-      "Integrity": "Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=",
+      "Fingerprint": "4kpuymxx2l",
+      "Integrity": "HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CombatPlanner.Client.bundle.scp.css"
@@ -8788,8 +8788,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "swsybuv5hr",
-      "Integrity": "JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI=",
+      "Fingerprint": "3dsfq5azjx",
+      "Integrity": "qdQUpKnqEQ/Ac8zgjKdXRfc44b3dT8HBiVkJD3/2bQE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -8835,6 +8835,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\theme.css",
+      "SourceId": "CombatPlanner.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/theme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfwr36zd89",
+      "Integrity": "GfgKqI37UxXGNjomoqqwdTgKoOh6GnK2sZ9beGQxvF8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\theme.css"
     },
     {
       "Identity": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\favicon.png",
@@ -8893,8 +8914,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rhe4o1yyb7",
-      "Integrity": "oYFfGy7WyJb7r7lsaTKmy2RYg52M0lRSu470gLxA8TA=",
+      "Fingerprint": "33g1fj4i9j",
+      "Integrity": "UZ2SgcrQE1fQfZcgNap6hhNRWgp0O81iIEXuuqnLmdc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -8978,11 +8999,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nkRlSYupGIMJQt0Gdgkr5OENuGc701YnTO7ck1Evi28=\""
+          "Value": "\"PHRc8Lwr4dJNBEx5yUB8Skji/hK4sEMpyPmWc6E3ndE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:04:31 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8992,18 +9013,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nkRlSYupGIMJQt0Gdgkr5OENuGc701YnTO7ck1Evi28="
+          "Value": "sha256-PHRc8Lwr4dJNBEx5yUB8Skji/hK4sEMpyPmWc6E3ndE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-esq0plxa58.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-opac3cuhx4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000111844313"
+          "Quality": "0.000111881853"
         }
       ],
       "ResponseHeaders": [
@@ -9013,15 +9034,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8940"
+          "Value": "8937"
         },
         {
           "Name": "ETag",
-          "Value": "\"JRK2wdgM95NIwx1P0f99mYiQtQayNlJwmNKdvn+zm7M=\""
+          "Value": "\"mwGwBZW3DN7RZJoBktUBOKP/mw0yVSbF72JqXyUcCPg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:37 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9041,19 +9062,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nkRlSYupGIMJQt0Gdgkr5OENuGc701YnTO7ck1Evi28=\""
+          "Value": "W/\"PHRc8Lwr4dJNBEx5yUB8Skji/hK4sEMpyPmWc6E3ndE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nkRlSYupGIMJQt0Gdgkr5OENuGc701YnTO7ck1Evi28="
+          "Value": "sha256-PHRc8Lwr4dJNBEx5yUB8Skji/hK4sEMpyPmWc6E3ndE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-esq0plxa58.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\uhwrapeqr9-opac3cuhx4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9062,7 +9083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8940"
+          "Value": "8937"
         },
         {
           "Name": "Content-Type",
@@ -9070,11 +9091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JRK2wdgM95NIwx1P0f99mYiQtQayNlJwmNKdvn+zm7M=\""
+          "Value": "\"mwGwBZW3DN7RZJoBktUBOKP/mw0yVSbF72JqXyUcCPg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:37 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9092,7 +9113,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JRK2wdgM95NIwx1P0f99mYiQtQayNlJwmNKdvn+zm7M="
+          "Value": "sha256-mwGwBZW3DN7RZJoBktUBOKP/mw0yVSbF72JqXyUcCPg="
         }
       ]
     },
@@ -9244,7 +9265,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59476"
+          "Value": "61556"
         },
         {
           "Name": "Content-Type",
@@ -9252,11 +9273,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0=\""
+          "Value": "\"NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:04:30 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9266,18 +9287,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0="
+          "Value": "sha256-NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ="
         }
       ]
     },
     {
       "Route": "_framework/CombatPlanner.Client.pdb",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-24nrh9ju9w.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-efymp7t8c6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000021183748"
+          "Quality": "0.000020306218"
         }
       ],
       "ResponseHeaders": [
@@ -9287,15 +9308,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "47205"
+          "Value": "49245"
         },
         {
           "Name": "ETag",
-          "Value": "\"bvmX6wJsuEEGb+5c0dbsbQ9UzdYn4cx+1RDq2901JEA=\""
+          "Value": "\"q70oFe3X+5gSw+05A8SgCACDpyCAkec2mxMJVTGGlSs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9315,19 +9336,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0=\""
+          "Value": "W/\"NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pi3WNDrW9vm/l9rOPRGWwVjW5G/ysx11rXwMAzMNKL0="
+          "Value": "sha256-NqM56VNiM5reg+BSBtziql6wtFua9/SO91TEpRh2sYQ="
         }
       ]
     },
     {
       "Route": "_framework/CombatPlanner.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-24nrh9ju9w.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\bsb25gkhlt-efymp7t8c6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9336,7 +9357,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "47205"
+          "Value": "49245"
         },
         {
           "Name": "Content-Type",
@@ -9344,11 +9365,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bvmX6wJsuEEGb+5c0dbsbQ9UzdYn4cx+1RDq2901JEA=\""
+          "Value": "\"q70oFe3X+5gSw+05A8SgCACDpyCAkec2mxMJVTGGlSs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9366,7 +9387,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bvmX6wJsuEEGb+5c0dbsbQ9UzdYn4cx+1RDq2901JEA="
+          "Value": "sha256-q70oFe3X+5gSw+05A8SgCACDpyCAkec2mxMJVTGGlSs="
         }
       ]
     },
@@ -9381,7 +9402,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "53525"
+          "Value": "53013"
         },
         {
           "Name": "Content-Type",
@@ -9389,11 +9410,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco=\""
+          "Value": "\"JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:04:30 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9403,18 +9424,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco="
+          "Value": "sha256-JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94="
         }
       ]
     },
     {
       "Route": "_framework/CombatPlanner.Client.wasm",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-t2q6sni1ze.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-iy04vg0xj6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000052720371"
+          "Quality": "0.000052826202"
         }
       ],
       "ResponseHeaders": [
@@ -9424,15 +9445,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18967"
+          "Value": "18929"
         },
         {
           "Name": "ETag",
-          "Value": "\"T1UiHPO5jVhTzWkxrwk1WrQSWYU+ZdeO5CpSWYp4bWY=\""
+          "Value": "\"AYQ5/VPooDgGTpTCkT+gQ8M3DPtPWqzxTVbKTC9Rgjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9452,19 +9473,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco=\""
+          "Value": "W/\"JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hYFPyoZCblMIpVEwUD5X9bzdUDhnOqX4smiMs5RRlco="
+          "Value": "sha256-JiNXLAI4KHOI+q2fVIDDAxRq6Tk8XwaEK0SwHSZVg94="
         }
       ]
     },
     {
       "Route": "_framework/CombatPlanner.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-t2q6sni1ze.gz",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\compressed\\o1omqpo0tr-iy04vg0xj6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9473,7 +9494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18967"
+          "Value": "18929"
         },
         {
           "Name": "Content-Type",
@@ -9481,11 +9502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T1UiHPO5jVhTzWkxrwk1WrQSWYU+ZdeO5CpSWYp4bWY=\""
+          "Value": "\"AYQ5/VPooDgGTpTCkT+gQ8M3DPtPWqzxTVbKTC9Rgjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9503,7 +9524,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T1UiHPO5jVhTzWkxrwk1WrQSWYU+ZdeO5CpSWYp4bWY="
+          "Value": "sha256-AYQ5/VPooDgGTpTCkT+gQ8M3DPtPWqzxTVbKTC9Rgjc="
         }
       ]
     },
@@ -37319,7 +37340,7 @@
       ]
     },
     {
-      "Route": "CombatPlanner.Client.9njev68jiz.bundle.scp.css",
+      "Route": "CombatPlanner.Client.4kpuymxx2l.bundle.scp.css",
       "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CombatPlanner.Client.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -37329,7 +37350,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19413"
+          "Value": "26098"
         },
         {
           "Name": "Content-Type",
@@ -37337,11 +37358,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=\""
+          "Value": "\"HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37351,7 +37372,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9njev68jiz"
+          "Value": "4kpuymxx2l"
         },
         {
           "Name": "label",
@@ -37359,12 +37380,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4="
+          "Value": "sha256-HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE="
         }
       ]
     },
     {
-      "Route": "CombatPlanner.Client.9njev68jiz.styles.css",
+      "Route": "CombatPlanner.Client.4kpuymxx2l.styles.css",
       "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CombatPlanner.Client.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -37374,7 +37395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19413"
+          "Value": "26098"
         },
         {
           "Name": "Content-Type",
@@ -37382,11 +37403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=\""
+          "Value": "\"HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37396,7 +37417,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9njev68jiz"
+          "Value": "4kpuymxx2l"
         },
         {
           "Name": "label",
@@ -37404,7 +37425,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4="
+          "Value": "sha256-HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE="
         }
       ]
     },
@@ -37419,7 +37440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19413"
+          "Value": "26098"
         },
         {
           "Name": "Content-Type",
@@ -37427,11 +37448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=\""
+          "Value": "\"HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37441,7 +37462,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4="
+          "Value": "sha256-HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE="
         }
       ]
     },
@@ -37456,7 +37477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19413"
+          "Value": "26098"
         },
         {
           "Name": "Content-Type",
@@ -37464,11 +37485,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4=\""
+          "Value": "\"HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 08:02:36 GMT"
+          "Value": "Tue, 29 Apr 2025 10:36:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37478,7 +37499,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cw6mQvSdfmiOPnN//SOhao9pAuP/1hkCgIupnBnzAm4="
+          "Value": "sha256-HFmbwLEItY6ZuPL8t+1aQjNELvbq2nEBvUnEma1fRaE="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.3dsfq5azjx.css",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qdQUpKnqEQ/Ac8zgjKdXRfc44b3dT8HBiVkJD3/2bQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 10:08:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3dsfq5azjx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qdQUpKnqEQ/Ac8zgjKdXRfc44b3dT8HBiVkJD3/2bQE="
         }
       ]
     },
@@ -37493,7 +37559,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3782"
+          "Value": "3288"
         },
         {
           "Name": "Content-Type",
@@ -37501,11 +37567,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI=\""
+          "Value": "\"qdQUpKnqEQ/Ac8zgjKdXRfc44b3dT8HBiVkJD3/2bQE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 08:24:21 GMT"
+          "Value": "Tue, 29 Apr 2025 10:08:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37515,52 +37581,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.swsybuv5hr.css",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3782"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 08:24:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "swsybuv5hr"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI="
+          "Value": "sha256-qdQUpKnqEQ/Ac8zgjKdXRfc44b3dT8HBiVkJD3/2bQE="
         }
       ]
     },
@@ -37729,6 +37750,88 @@
       ]
     },
     {
+      "Route": "css/theme.bfwr36zd89.css",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GfgKqI37UxXGNjomoqqwdTgKoOh6GnK2sZ9beGQxvF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 10:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfwr36zd89"
+        },
+        {
+          "Name": "label",
+          "Value": "css/theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfgKqI37UxXGNjomoqqwdTgKoOh6GnK2sZ9beGQxvF8="
+        }
+      ]
+    },
+    {
+      "Route": "css/theme.css",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\css\\theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GfgKqI37UxXGNjomoqqwdTgKoOh6GnK2sZ9beGQxvF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 10:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GfgKqI37UxXGNjomoqqwdTgKoOh6GnK2sZ9beGQxvF8="
+        }
+      ]
+    },
+    {
       "Route": "favicon.ifv42okdf2.png",
       "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\favicon.png",
       "Selectors": [],
@@ -37893,6 +37996,51 @@
       ]
     },
     {
+      "Route": "index.33g1fj4i9j.html",
+      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1031"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UZ2SgcrQE1fQfZcgNap6hhNRWgp0O81iIEXuuqnLmdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 10:06:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33g1fj4i9j"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UZ2SgcrQE1fQfZcgNap6hhNRWgp0O81iIEXuuqnLmdc="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\index.html",
       "Selectors": [],
@@ -37903,7 +38051,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "979"
+          "Value": "1031"
         },
         {
           "Name": "Content-Type",
@@ -37911,11 +38059,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oYFfGy7WyJb7r7lsaTKmy2RYg52M0lRSu470gLxA8TA=\""
+          "Value": "\"UZ2SgcrQE1fQfZcgNap6hhNRWgp0O81iIEXuuqnLmdc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 08:24:21 GMT"
+          "Value": "Tue, 29 Apr 2025 10:06:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37925,52 +38073,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oYFfGy7WyJb7r7lsaTKmy2RYg52M0lRSu470gLxA8TA="
-        }
-      ]
-    },
-    {
-      "Route": "index.rhe4o1yyb7.html",
-      "AssetFile": "C:\\Users\\Uemit Tamyol\\source\\repos\\Umit2711\\CombatPlanner\\CombatPlanner.App\\CombatPlanner.Client\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "979"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oYFfGy7WyJb7r7lsaTKmy2RYg52M0lRSu470gLxA8TA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 08:24:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rhe4o1yyb7"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oYFfGy7WyJb7r7lsaTKmy2RYg52M0lRSu470gLxA8TA="
+          "Value": "sha256-UZ2SgcrQE1fQfZcgNap6hhNRWgp0O81iIEXuuqnLmdc="
         }
       ]
     },

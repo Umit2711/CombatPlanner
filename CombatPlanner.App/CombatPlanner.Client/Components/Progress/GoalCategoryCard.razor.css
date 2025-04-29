@@ -1,20 +1,20 @@
 ﻿.goal-category-card {
-    background-color: #ffffff;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--spacing-md);
 }
 
 .goal-category-header {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #111827;
+    gap: var(--spacing-sm);
+    font-size: var(--font-lg);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text);
 }
 
 .goal-category-icon {
@@ -24,5 +24,5 @@
 .goal-items {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--spacing-md);
 }

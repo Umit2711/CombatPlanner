@@ -1,23 +1,23 @@
 .page-wrapper[b-q67fa8yui8] {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: var(--spacing-lg);
 }
 
 .page-header[b-q67fa8yui8] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: var(--spacing-lg);
 }
 
 .page-title[b-q67fa8yui8] {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #111827;
+    font-size: var(--font-xl);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
 }
 
 .load-more[b-q67fa8yui8] {
-    margin-top: 2rem;
+    margin-top: var(--spacing-lg);
     text-align: center;
 }

@@ -1,0 +1,18 @@
+.settings-wrapper[b-hbm3525t0e] {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+}
+
+.settings-title[b-hbm3525t0e] {
+    font-size: var(--font-xl);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
+}
+
+.settings-list[b-hbm3525t0e] {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
